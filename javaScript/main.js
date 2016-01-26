@@ -12636,7 +12636,7 @@ Version
          */
         additionalArguments.unshift(string);
         $.each(additionalArguments, function(key, value) {
-          return string = string.replace(new RegExp("\\{" + key + "\\}", 'gm'), value);
+          return string = string.replace(new window.RegExp("\\{" + key + "\\}", 'gm'), value);
         });
         return string;
       };
