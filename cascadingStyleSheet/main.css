@@ -74,6 +74,7 @@
 .tools-hidden-on-javascript-enabled{display:initial}
 .tools-visible-on-javascript-enabled{display:none}
 .tools-disable-scrolling{height:100%!important;overflow:hidden!important}
+html.javascript .tools-visible-on-javascript-enabled{display:initial}
 .website-action{cursor:pointer}
 div.website-window-loading-cover{background-color:#f2f2f2;position:fixed;height:100%;width:100%;z-index:1002}
 div.website-window-loading-cover>div{position:absolute;top:50%;left:50%}

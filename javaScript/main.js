@@ -11077,6 +11077,70 @@ Version
         return ($.trim(output)) + "\n(Type: \"" + ($.type(object)) + "\")";
       };
 
+      Tools.prototype.normalizeClassNames = function() {
+
+        /*
+            Normalizes class name order of current dom node.
+        
+            **returns {$.Tools}** - Returns current instance.
+         */
+        this.$domNode.find('*').addBack().each(function() {
+          var $this, className, i, len, results, sortedClassNames;
+          $this = $(this);
+          if ($this.attr('class')) {
+            sortedClassNames = $this.attr('class').split(' ').sort() || [];
+            $this.attr('class', '');
+            results = [];
+            for (i = 0, len = sortedClassNames.length; i < len; i++) {
+              className = sortedClassNames[i];
+              results.push($this.addClass(className));
+            }
+            return results;
+          } else if ($this.attr('class') != null) {
+            return $this.removeAttr('class');
+          }
+        });
+        return this;
+      };
+
+      Tools.prototype.isEquivalentDom = function(first, second) {
+
+        /*
+            Checks weather given html or text strings are equal.
+        
+            **first {String|DomNode}**  - First html or text to compare.
+        
+            **second {String|DomNode}** - Second html or text to compare.
+        
+            **returns {Boolean}**       - Returns true if both dom
+                                          representations are equivalent.
+         */
+        var $firstDomNode, $secondDomNode;
+        if (first === second) {
+          return true;
+        }
+        if (first != null) {
+          if (second != null) {
+            if (!(((first.charAt == null) || first.charAt(0) === '<') && ((second.charAt == null) || second.charAt(0) === '<'))) {
+              return first === second;
+            }
+            $firstDomNode = $(first);
+            if ($firstDomNode.length) {
+              $secondDomNode = $(second);
+              if ($secondDomNode.length) {
+                $firstDomNode = $firstDomNode.Tools('normalizeClassNames').$domNode;
+                $secondDomNode = $secondDomNode.Tools('normalizeClassNames').$domNode;
+                return $firstDomNode[0].isEqualNode($secondDomNode[0]);
+              }
+              return false;
+            }
+            return first === second;
+          }
+          return false;
+        }
+        return second == null;
+      };
+
       Tools.prototype.getPositionRelativeToViewport = function(delta) {
         var $window, rectangle;
         if (delta == null) {
@@ -11672,7 +11736,7 @@ Version
         if (ignoreFunctions && $.isFunction(firstValue) && $.isFunction(secondValue) || firstValue === secondValue || this.numberIsNotANumber(firstValue) && this.numberIsNotANumber(secondValue) || firstValue instanceof window.RegExp && secondValue instanceof window.RegExp && firstValue.toString() === secondValue.toString() || firstValue instanceof window.Date && secondValue instanceof window.Date && (window.isNaN(firstValue.getTime()) && window.isNaN(secondValue.getTime()) || !window.isNaN(firstValue.getTime()) && !window.isNaN(secondValue.getTime()) && firstValue.getTime() === secondValue.getTime())) {
           return true;
         }
-        if ($.isPlainObject(firstValue) && $.isPlainObject(secondValue) && !(firstValue instanceof window.RegExp || secondValue instanceof window.RegExp) || $.isArray(firstValue) && $.isArray(secondValue)) {
+        if ($.isPlainObject(firstValue) && $.isPlainObject(secondValue) && !(firstValue instanceof window.RegExp || secondValue instanceof window.RegExp) || $.isArray(firstValue) && $.isArray(secondValue) && firstValue.length === secondValue.length) {
           equal = true;
           ref = [[firstValue, secondValue], [secondValue, firstValue]];
           for (i = 0, len = ref.length; i < len; i++) {
