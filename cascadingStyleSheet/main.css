@@ -76,7 +76,7 @@
 .tools-disable-scrolling{height:100%!important;overflow:hidden!important}
 html.javascript .tools-visible-on-javascript-enabled{display:initial}
 .website-action{cursor:pointer}
-div.website-window-loading-cover{background-color:#f2f2f2;position:fixed;height:100%;width:100%;z-index:1002}
+div.website-window-loading-cover{background-color:#f2f2f2;position:fixed;height:100%;width:100%;z-index:1002!important}
 div.website-window-loading-cover>div{position:absolute;top:50%;left:50%}
 body.home-page{/*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
@@ -1633,7 +1633,7 @@ body.home-page .checkbox label .checkbox-styled-wrapper>input[type=checkbox],bod
 body.home-page .checkbox label .checkbox-styled-wrapper>input[type=checkbox]:checked~span.checkbox-styled>span.checkbox-styled-checked,body.home-page .form-horizontal .checkbox label .checkbox-styled-wrapper>input[type=checkbox]:checked~span.checkbox-styled>span.checkbox-styled-checked{-webkit-opacity:1;-khtml-opacity:1;-moz-opacity:1;opacity:1}
 body.home-page .checkbox label .checkbox-styled-wrapper>input[type=checkbox]:disabled~span.checkbox-styled,body.home-page .form-horizontal .checkbox label .checkbox-styled-wrapper>input[type=checkbox]:disabled~span.checkbox-styled{background-color:#eee}
 body.home-page .checkbox label .checkbox-styled-wrapper>span.checkbox-styled,body.home-page .form-horizontal .checkbox label .checkbox-styled-wrapper>span.checkbox-styled{cursor:pointer;float:right;width:25px;height:25px;border-radius:4px;border:2px solid #ccc;padding:0}
-body.home-page .checkbox label .checkbox-styled-wrapper>span.checkbox-styled>span.checkbox-styled-checked,body.home-page .form-horizontal .checkbox label .checkbox-styled-wrapper>span.checkbox-styled>span.checkbox-styled-checked{-webkit-transform:rotate(-45deg);-o-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-opacity:0;-khtml-opacity:0;-moz-opacity:0;opacity:0;position:absolute;width:13px;height:8px;background:0 0;top:7px;left:6px;border:3px solid #5a5a5a;border-top:none;border-right:none}
+body.home-page .checkbox label .checkbox-styled-wrapper>span.checkbox-styled>span.checkbox-styled-checked,body.home-page .form-horizontal .checkbox label .checkbox-styled-wrapper>span.checkbox-styled>span.checkbox-styled-checked{-webkit-transform:rotate(-45deg);-o-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-opacity:0;-khtml-opacity:0;-moz-opacity:0;opacity:0;position:absolute;width:13px;height:8px;background:0 0;top:5px;left:4px;border:3px solid #5a5a5a;border-top:none;border-right:none}
 body.home-page form:not(.form-horizontal) .checkbox{margin-bottom:20px}
 body.home-page h1,body.home-page h2,body.home-page h3,body.home-page h4,body.home-page h5,body.home-page h6{font-family:'Open Sans Condensed',open-sans-condensed,sans-serif}
 body.home-page a,body.home-page a:focus,body.home-page a:visited{color:#f88;font-size:1.2rem}

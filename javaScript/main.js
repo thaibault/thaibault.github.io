@@ -10535,7 +10535,7 @@ For conventions see require on https://github.com/thaibault/require
 Author
 ------
 
-t.sickert["~at~"]gmail.com (Torben Sickert)
+info["~at~"]torben.website (Torben Sickert)
 
 Version
 -------
@@ -10544,7 +10544,7 @@ Version
  */
 
 (function() {
-  var main,
+  var jQuery, main,
     slice = [].slice,
     indexOf = [].indexOf || function(item) { for (var i = 0, l = this.length; i < l; i++) { if (i in this && this[i] === item) return i; } return -1; };
 
@@ -13252,14 +13252,14 @@ Version
     };
     $.Tools["class"] = Tools;
     nativePropFunction = $.fn.prop;
-    return $.fn.prop = function(key, value) {
+    $.fn.prop = function(key, value) {
 
       /*
           JQuery's native prop implementation ignores properties for text
           nodes, comments and attribute nodes.
        */
-      var ref;
-      if (arguments.length < 3 && ((ref = this[0].nodeName) === '#text' || ref === '#comment') && (this[0][key] != null)) {
+      var ref, ref1;
+      if (arguments.length < 3 && ((ref = (ref1 = this[0]) != null ? ref1.nodeName : void 0) === '#text' || ref === '#comment') && (this[0][key] != null)) {
         if (arguments.length === 1) {
           return this[0][key];
         }
@@ -13270,13 +13270,15 @@ Version
       }
       return nativePropFunction.apply(this, arguments);
     };
+    return $.Tools;
   };
 
-  if (this.require != null) {
-    this.require.scopeIndicator = 'jQuery.Tools';
-    this.require([['jQuery', 'jquery-2.1.1']], main);
+  jQuery = jQuery || $ || window.jQuery || window.$;
+
+  if (typeof module !== "undefined" && module !== null) {
+    module.exports = main(jQuery);
   } else {
-    main(this.jQuery);
+    main(jQuery);
   }
 
 }).call(this);
@@ -13309,7 +13311,7 @@ For conventions see require on https://github.com/thaibault/require
 Author
 ------
 
-t.sickert["~at~"]gmail.com (Torben Sickert)
+info["~at~"]torben.website (Torben Sickert)
 
 Version
 -------
@@ -13957,7 +13959,7 @@ For conventions see require on https://github.com/thaibault/require
 Author
 ------
 
-t.sickert["~at~"]gmail.com (Torben Sickert)
+info["~at~"]torben.website (Torben Sickert)
 
 Version
 -------
