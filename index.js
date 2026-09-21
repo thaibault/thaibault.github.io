@@ -2444,9 +2444,9 @@ if(typeof property_types_window==='undefined'||property_types_window===null)var 
 // -*- coding: utf-8 -*-
 /** @module propertTypes *//* !
     region header
-    [Project page](https://torben.website/react-material-input)
+    [Project page](https://tsickert.com/react-material-input)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -8255,9 +8255,9 @@ var __nested_webpack_exports__ = {};
 // -*- coding: utf-8 -*-
 /** @module decorator *//* !
     region header
-    [Project page](https://torben.website/web-component-wrapper)
+    [Project page](https://tsickert.com/web-component-wrapper)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -8327,9 +8327,9 @@ module.exports = x({ ["any"]: function() { return any; }, ["array"]: function() 
 // -*- coding: utf-8 -*-
 /** @module decorator *//* !
     region header
-    [Project page](https://torben.website/web-component-wrapper)
+    [Project page](https://tsickert.com/web-component-wrapper)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -8419,9 +8419,9 @@ var Web_nested_webpack_exports_ = {};
 // -*- coding: utf-8 -*-
 /** @module web *//* !
     region header
-    [Project page](https://torben.website/web-component-wrapper)
+    [Project page](https://tsickert.com/web-component-wrapper)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -8916,9 +8916,9 @@ if(typeof website_utilities_window==='undefined'||website_utilities_window===nul
 // -*- coding: utf-8 -*-
 /** @module website-utilities *//* !
     region header
-    [Project page](https://torben.website/website-utilities)
+    [Project page](https://tsickert.com/website-utilities)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -9116,9 +9116,9 @@ if(typeof dist_window==='undefined'||dist_window===null)var dist_window=(typeof 
 // -*- coding: utf-8 -*-
 /** @module web-internationalization *//* !
     region header
-    [Project page](https://torben.website/web-internationalization)
+    [Project page](https://tsickert.com/web-internationalization)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -9888,9 +9888,9 @@ module.exports = x({  });
 // -*- coding: utf-8 -*-
 /** @module constants *//* !
     region header
-    [Project page](https://torben.website/clientnode)
+    [Project page](https://tsickert.com/clientnode)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -9929,9 +9929,9 @@ __nested_webpack_require_5931__.r(__nested_webpack_exports__);
 // -*- coding: utf-8 -*-
 /** @module module *//* !
     region header
-    [Project page](https://torben.website/clientnode)
+    [Project page](https://tsickert.com/clientnode)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -9986,9 +9986,9 @@ __nested_webpack_require_16145__.r(__nested_webpack_exports__);
 // -*- coding: utf-8 -*-
 /** @module object *//* !
     region header
-    [Project page](https://torben.website/clientnode)
+    [Project page](https://tsickert.com/clientnode)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -10251,9 +10251,9 @@ __nested_webpack_require_85381__.r(__nested_webpack_exports__);
 // -*- coding: utf-8 -*-
 /** @module indicators *//* !
     region header
-    [Project page](https://torben.website/clientnode)
+    [Project page](https://tsickert.com/clientnode)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -10337,9 +10337,9 @@ __nested_webpack_require_85381__.r(__nested_webpack_exports__);
 // -*- coding: utf-8 -*-
 /** @module context *//* !
     region header
-    [Project page](https://torben.website/clientnode)
+    [Project page](https://tsickert.com/clientnode)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -10423,9 +10423,9 @@ __nested_webpack_require_97352__.r(__nested_webpack_exports__);
 // -*- coding: utf-8 -*-
 /** @module string *//* !
     region header
-    [Project page](https://torben.website/clientnode)
+    [Project page](https://tsickert.com/clientnode)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -10804,9 +10804,9 @@ __nested_webpack_require_148714__.r(__nested_webpack_exports__);
 // -*- coding: utf-8 -*-
 /** @module number *//* !
     region header
-    [Project page](https://torben.website/clientnode)
+    [Project page](https://tsickert.com/clientnode)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -10853,9 +10853,9 @@ __nested_webpack_require_148714__.r(__nested_webpack_exports__);
 // -*- coding: utf-8 -*-
 /** @module Lock *//* !
     region header
-    [Project page](https://torben.website/clientnode)
+    [Project page](https://tsickert.com/clientnode)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -10903,9 +10903,9 @@ __nested_webpack_require_148714__.r(__nested_webpack_exports__);
 // -*- coding: utf-8 -*-
 /** @module Semaphore *//* !
     region header
-    [Project page](https://torben.website/clientnode)
+    [Project page](https://tsickert.com/clientnode)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -10958,9 +10958,9 @@ __nested_webpack_require_164165__.r(__nested_webpack_exports__);
 // -*- coding: utf-8 -*-
 /** @module filesystem *//* !
     region header
-    [Project page](https://torben.website/clientnode)
+    [Project page](https://tsickert.com/clientnode)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -11080,9 +11080,9 @@ __nested_webpack_require_190669__.r(__nested_webpack_exports__);
 // -*- coding: utf-8 -*-
 /** @module utility *//* !
     region header
-    [Project page](https://torben.website/clientnode)
+    [Project page](https://tsickert.com/clientnode)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -11156,9 +11156,9 @@ timeoutID=null;recentParameters=[]},thresholdInMilliseconds)}};/**
 // -*- coding: utf-8 -*-
 /* !
     region header
-    [Project page](https://torben.website/clientnode)
+    [Project page](https://tsickert.com/clientnode)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -11187,9 +11187,9 @@ __nested_webpack_require_203532__.r(__nested_webpack_exports__);
 // -*- coding: utf-8 -*-
 /** @module Logger *//* !
     region header
-    [Project page](https://torben.website/clientnode)
+    [Project page](https://tsickert.com/clientnode)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -11318,9 +11318,9 @@ __nested_webpack_require_221982__.r(__nested_webpack_exports__);
 // -*- coding: utf-8 -*-
 /** @module array *//* !
     region header
-    [Project page](https://torben.website/clientnode)
+    [Project page](https://tsickert.com/clientnode)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -11504,9 +11504,9 @@ __nested_webpack_require_247053__.r(__nested_webpack_exports__);
 // -*- coding: utf-8 -*-
 /** @module dateTime *//* !
     region header
-    [Project page](https://torben.website/clientnode)
+    [Project page](https://tsickert.com/clientnode)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -11617,9 +11617,9 @@ __nested_webpack_require_266717__.r(__nested_webpack_exports__);
 // -*- coding: utf-8 -*-
 /** @module function *//* !
     region header
-    [Project page](https://torben.website/clientnode)
+    [Project page](https://tsickert.com/clientnode)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -11680,9 +11680,9 @@ parameter=/([^= ]+) *=>.*/m.exec(functionCode);var names=[];if(parameter&&parame
 // -*- coding: utf-8 -*-
 /* !
     region header
-    [Project page](https://torben.website/clientnode)
+    [Project page](https://tsickert.com/clientnode)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -11740,9 +11740,9 @@ var result=scope;var index=0;var _iterator6=_createForOfIteratorHelper(path),_st
 // -*- coding: utf-8 -*-
 /* !
     region header
-    [Project page](https://torben.website/clientnode)
+    [Project page](https://tsickert.com/clientnode)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -11820,9 +11820,9 @@ return viewArrayAsScope(value,childrenPropertyNames,propertyReferenceKeys)}if(va
 // -*- coding: utf-8 -*-
 /* !
     region header
-    [Project page](https://torben.website/clientnode)
+    [Project page](https://tsickert.com/clientnode)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -11845,9 +11845,9 @@ return viewArrayAsScope(value,childrenPropertyNames,propertyReferenceKeys)}if(va
 // -*- coding: utf-8 -*-
 /** @module cli *//* !
     region header
-    [Project page](https://torben.website/clientnode)
+    [Project page](https://tsickert.com/clientnode)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -11877,9 +11877,9 @@ return viewArrayAsScope(value,childrenPropertyNames,propertyReferenceKeys)}if(va
 // -*- coding: utf-8 -*-
 /** @module cookie *//* !
     region header
-    [Project page](https://torben.website/clientnode)
+    [Project page](https://tsickert.com/clientnode)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -11932,9 +11932,9 @@ return viewArrayAsScope(value,childrenPropertyNames,propertyReferenceKeys)}if(va
 // -*- coding: utf-8 -*-
 /** @module data-transfer *//* !
     region header
-    [Project page](https://torben.website/clientnode)
+    [Project page](https://tsickert.com/clientnode)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -12025,9 +12025,9 @@ return viewArrayAsScope(value,childrenPropertyNames,propertyReferenceKeys)}if(va
 // -*- coding: utf-8 -*-
 /** @module domNode *//* !
     region header
-    [Project page](https://torben.website/clientnode)
+    [Project page](https://tsickert.com/clientnode)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -12117,9 +12117,9 @@ for(var _i6=0,_Array$from=Array.from(domNode.childNodes);_i6<_Array$from.length;
 // -*- coding: utf-8 -*-
 /** @module process *//* !
     region header
-    [Project page](https://torben.website/clientnode)
+    [Project page](https://tsickert.com/clientnode)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -12347,9 +12347,9 @@ __nested_webpack_require_350507__.d(_utility_js__WEBPACK_IMPORTED_MODULE_12___na
 // -*- coding: utf-8 -*-
 /** @module scope *//* !
     region header
-    [Project page](https://torben.website/clientnode)
+    [Project page](https://tsickert.com/clientnode)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
@@ -12625,9 +12625,9 @@ __nested_webpack_require_350507__.d(_utility_js__WEBPACK_IMPORTED_MODULE_12___na
 // -*- coding: utf-8 -*-
 /** @module clientnode *//* !
     region header
-    [Project page](https://torben.website/clientnode)
+    [Project page](https://tsickert.com/clientnode)
 
-    Copyright Torben Sickert (info["~at~"]torben.website) 16.12.2012
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
 
     License
     -------
